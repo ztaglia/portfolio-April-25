@@ -7,5 +7,20 @@ html {
 
 html, body, #__nuxt {
     height: 100vh;
-    background-color: navy;
+    background-color: skyblue;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(25, 0, 74) 0%, green 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 10000vh skyblue;
+    border-radius: 10px;
 }
